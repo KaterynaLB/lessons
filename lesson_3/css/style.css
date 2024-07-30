@@ -1,0 +1,47 @@
+@import url("reset.css");
+* {
+	color: black;
+}
+li {
+	color: greenyellow;
+}
+.title {
+	color: red;
+}
+#section-1 {
+	color: blue;
+}
+[href="#section-2"] {
+	color: yellow;
+}
+[class*="ink"] {
+	color: gold;
+}
+[class$="item"] {
+	color: deeppink;
+}
+p.text,
+mark.color {
+	color: coral;
+}
+ .contacts.colors {
+	color: aqua;
+}
+.point p {
+	color: mediumblue;
+}
+.point .title {
+	color: white;
+}
+.text * {
+	color: darkmagenta;
+}
+.item > p {
+	color: darkgreen;
+}
+.title-six ~ p {
+	color: dimgrey;
+}
+.title-three + p {
+	color: palevioletred;
+}
